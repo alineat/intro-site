@@ -1,5 +1,12 @@
 /*font-family: 'Lato', sans-serif;*/
 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
 h1 {
     text-align:left;
     background-image: url(logo.png);
@@ -28,5 +35,11 @@ h1 span {
     display: inline-block;
     color: ;
     text-decoration: none;
-    /*border-bottom: ;*/
+}
+
+footer {
+    background-color: #2a0157;
+    color:#ffffff;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
