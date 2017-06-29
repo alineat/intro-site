@@ -104,7 +104,6 @@ section#principal .modulo .abas li a:hover {
 }
 
 section#principal .modulo .container {
-    height: ;
     padding: 20px;
 }
 
@@ -174,10 +173,9 @@ form button {
     border-radius: 4px;
 }
 
-.confirmacoes li {
+.confirmacoes li{
     font-size: 14px;
     display: flex;
-    width: 400px;
 }
 
 .confirmacoes input {
