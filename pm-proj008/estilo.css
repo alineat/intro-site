@@ -181,72 +181,12 @@ form button {
     width: 400px;
 }
 
-/*.confirmacoes input {
+.confirmacoes input {
     width: 16px;
     height: 16px;
     margin-right: 5px;
     position: relative;
     cursor:pointer;
-}*/
-
-
-
-input[type=checkbox] {
-    visibility: hidden;
 }
 
-.quadrado {
-    width: 16px;
-    height: 16px;
-	margin-right: 5px;
-	position: relative;
-}
-
-.quadrado label {
-	cursor: pointer;
-	position: absolute;
-	width: 16px;
-	height: 16px;
-	top: 0;
-  	left: 0;
-	background: #ffffff /*#3aca60*/;
-	border:1px solid #cdcdcd;
-    border-radius: 2px;
-}
-
-.quadrado label:hover {
-    background: #3aca60;
-}
-
-.quadrado label:after {
-	opacity: 0;
-    content: '';
-	position: absolute;
-	width: 7px;
-	height: 3px;
-	background: transparent;
-	top: 4px;
-	left: 3px;
-	border: 3px solid #ffffff;
-	border-top: none;
-	border-right: none;
-
-	transform: rotate(-45deg);
-}
-
-.quadrado label:hover::after {
-	opacity: 0.5;
-}
-
-/*.quadrado input[type=checkbox]:checked + label:after + label:hover {
-	opacity: 1;
-}*/
-}
-  input[type=checkbox] {
-    visibility: hidden;
-    &:checked + label:after {
-      opacity: 1;
-    }
-  }    
-}
 
