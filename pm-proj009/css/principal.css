@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(cartao.css);
+@import url(resumos.css);
 
 html {
     display: flex;
@@ -19,13 +20,9 @@ h1, h2, h3, ul {
 
 .checkout {
     width: 688px;
-    height: 588px;
+    height: 558px;
     background-color: #ffffff;
-}
-
-.checkout main .resumos {
-    height: 100px;
-    width: 45%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.27)
 }
 
 .checkout main {
