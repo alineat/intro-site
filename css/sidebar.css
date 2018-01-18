@@ -1,0 +1,42 @@
+body {
+    background-color: #f5f8f9;
+    font-family: 'Lato', sans-serif;
+}
+
+aside {
+    background-color: #3a3c40;
+    text-align: center;
+    padding: 50px !important;
+}
+
+img {
+    height: 170px;
+    border-radius: 15px;
+}
+
+aside h1 {
+    color: #f5a623;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+aside h2 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+aside .redes-sociais {
+    margin-top: 20px;
+}
+
+aside .redes-sociais li {
+    display: inline;
+    margin-right: 5px;
+}
+
+aside .redes-sociais li i {
+    color: #fff;
+    font-size: 30px;
+}
