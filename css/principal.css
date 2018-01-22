@@ -31,13 +31,24 @@ article .instituicao h4 {
     margin-bottom: 5px;
 }
 
+article .instituicao .comp h4 {
+    float: right;
+}
+
+article .instituicao h4 span {
+    font-weight: 400;
+    font-size: 0.938em;
+    color: #666666;
+}
+
 article .instituicao h5 {
     font-size: 0.938em;
     margin-bottom: 0px;
-    
 }
 
 article .instituicao small {
     font-weight: 300;
     font-size: 0.938em;
 }
+
+article .instituicao h4
