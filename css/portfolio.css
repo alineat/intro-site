@@ -26,12 +26,39 @@ article .content h3 i {
     margin-right: 5px;
 }
 
-
-
-article .images a img {
-    padding: 10px;
-    margin-left: 25px;
-    margin-right: 30px;
+ul {
+    padding: 0;
+    margin: 0;
 }
 
+article li {
+    list-style-type: none;
+    margin-bottom: 3px;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding: 60px 40px 60px 40px;
+}
 
+article li:hover {
+    background-color: #6e6e6e;
+}
+
+article li.feito {
+    background-color: #f5a623;
+}
+
+article li.feito:hover {
+    background-color: #ffb84d;
+}
+
+article a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+}
